@@ -1,23 +1,34 @@
-<h3> Experiencia Laboral</h3>
 
-<!--
-<p *ngFor="let work of workExperience">
-    {{ work.fecha }} - {{ work.ubicacion }}
-</p>
--->
+
+<h3>Experiencia Laboral</h3>
 
 
 <ul *ngFor="let work of workExperience">
     <li>
         <tr>
-            <td>{{ work.fecha }} </td> 
-            <td>{{ work.ubicacion }} </td>
+
+            <td> {{ work.fecha }} </td>
+            <td> <img src="../assets/lugar.png" width="18" height="18">
+                {{ work.ubicacion}} </td>
         </tr>
+
         <tr>
-            <td> {{work.puesto}} </td>
+            <td>
+                <B>{{ work.puesto }}</B>
+                <tr><i> Empresa: {{ work.empresa }} </i></tr>
+            </td>
         </tr>
-        <tr>
-            <td> {{work.empresa}} </td>
-        </tr>
+
+        <p> </p>
+        <B>Habilidades:</B>
+        <ul *ngFor="let logro of work.logros">
+            <li> <i>
+                {{ logro.descripcion }}
+                </i>
+            </li>
+        </ul>
+        <p> <tr> </tr></p>
     </li>
+    
 </ul>
+
