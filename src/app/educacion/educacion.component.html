@@ -1,0 +1,21 @@
+
+<h3>Educación</h3>
+
+<ul *ngFor="let edu of education">
+    <li>
+        <tr>
+            <td> {{ edu.fecha }} </td> 
+            <td> <img src="../assets/lugar.png" width="18" height="18">
+                {{ edu.lugar }} </td>
+        </tr>
+
+        <tr>
+            <td>
+                <B>{{ edu.estudios }}</B>
+                <tr><i> Escuela: {{ edu.escuela }} </i></tr>
+            </td>
+        </tr>
+    </li>
+    
+</ul>
+
