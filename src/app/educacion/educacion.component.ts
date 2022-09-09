@@ -9,7 +9,7 @@ export class EducacionComponent implements OnInit {
 
   education : Array<any> = []
 
-  constructor() { }
+  constructor() { } 
 
   ngOnInit(): void {
 
