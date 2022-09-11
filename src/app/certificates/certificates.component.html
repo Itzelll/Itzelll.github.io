@@ -1,0 +1,13 @@
+<h3>Logros y Certificados</h3>
+
+<ul *ngFor = "let c of certificate">
+        <tr>
+            {{ c.titulo }}
+            <td>{{ c.fecha }}</td>
+        </tr>
+
+        <tr>
+            <i>{{ c.descripcion }}</i>
+        </tr>
+</ul>
+
