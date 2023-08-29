@@ -35,10 +35,17 @@ export class CertificatesComponent implements OnInit {
       descripcion : "Siglas (CLA)",
     };
 
+    let const5 = {
+      fecha : "(2023)",
+      titulo : "Especialista en Python", 
+      descripcion : "The most important language for data science",
+    };
+
     this.certificate.push(const1);
     this.certificate.push(const2);
     this.certificate.push(const3);
     this.certificate.push(const4);
+    this.certificate.push(const5);
 
   }
 
