@@ -55,5 +55,4 @@ export class CertificatesComponent implements OnInit {
     this.certificate.push(const4);
 
   }
-
 }
