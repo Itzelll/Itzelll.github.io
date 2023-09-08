@@ -38,13 +38,15 @@ export class CertificatesComponent implements OnInit {
     let const5 = {
       fecha : "(2023)",
       titulo : "Especialista en Python", 
-      descripcion : "https://github.com/Itzelll/python/blob/master/cursos-python/Itzel%20M%C3%A9ndezM%20-%20Python.png",
+      descripcion : "Python",
+      link : "https://github.com/Itzelll/python/blob/master/cursos-python/Itzel%20M%C3%A9ndezM%20-%20Python.png",
     };
 
     let const6 = {
       fecha : "(2023)",
       titulo : "Especialista en Pandas", 
-      descripcion : "https://github.com/Itzelll/python/blob/master/cursos-pandas/Itzel%20M%C3%A9ndezM%20-%20Pandas.png",
+      descripcion : "Pandas",
+      link: "https://github.com/Itzelll/python/blob/master/cursos-pandas/Itzel%20M%C3%A9ndezM%20-%20Pandas.png"
     };
 
     this.certificate.push(const6);
