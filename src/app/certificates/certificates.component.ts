@@ -63,6 +63,7 @@ export class CertificatesComponent implements OnInit {
       link : "https://github.com/Itzelll/python/blob/master/cursos-IML/Itzel%20M%C3%A9ndezM%20-%20Intermediate%20Machine%20Learning.png"
     };
 
+    
     this.certificate.push(const8);
     this.certificate.push(const7);
     this.certificate.push(const6);
