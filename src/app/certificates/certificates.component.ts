@@ -49,6 +49,22 @@ export class CertificatesComponent implements OnInit {
       link: "https://github.com/Itzelll/python/blob/master/cursos-pandas/Itzel%20M%C3%A9ndezM%20-%20Pandas.png"
     };
 
+    let const7 = {
+      fecha : "(2023)",
+      titulo : "Introducción a la Ciencia de Datos",
+      descripcion : "Intro to Machine Learning",
+      link : "https://github.com/Itzelll/python/blob/master/cursos-introML/Itzel%20M%C3%A9ndezM%20-%20Intro%20to%20Machine%20Learning.png"
+    };
+
+    let const8 = {
+      fecha : "(2023)",
+      titulo : "Ciencia de Datos Intermedia",
+      descripcion : "Intermediate Machine Learning",
+      link : "https://github.com/Itzelll/python/blob/master/cursos-IML/Itzel%20M%C3%A9ndezM%20-%20Intermediate%20Machine%20Learning.png"
+    };
+
+    this.certificate.push(const8);
+    this.certificate.push(const7);
     this.certificate.push(const6);
     this.certificate.push(const5);
     this.certificate.push(const1);
